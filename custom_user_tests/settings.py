@@ -25,7 +25,7 @@ elif test_db == 'local-postgres':
 elif test_db == 'mysql':
     db_config = {
         'ENGINE': 'django.db.backends.mysql',
-        'USER': 'travis',
+        'USER': 'root',
         'NAME': 'lazysignup',
     }
 elif test_db == 'local-mysql':

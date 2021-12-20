@@ -19,7 +19,7 @@ DB_CONFIGS = {
     },
     'mysql': {
         'ENGINE': 'django.db.backends.mysql',
-        'USER': 'travis',
+        'USER': 'root',
         'NAME': 'lazysignup',
     },
     'local-mysql': {
